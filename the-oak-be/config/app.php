@@ -185,4 +185,7 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+
+    "ollama_url" => env('OLLAMA_URL', 'http://localhost:11434'),
+
 ];
